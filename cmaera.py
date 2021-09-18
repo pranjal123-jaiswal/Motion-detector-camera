@@ -21,7 +21,7 @@ while cam.isOpened():                                                           
         cv2.rectangle(frame1, (X,Y),(X+W, Y+H),(0,255,0),2)                                      # image: It is the image on which rectangle is to be drawn.
                                                                                                  # start_point: It is the starting coordinates of rectangle. The coordinates are represented as tuples of two values i.e. (X coordinate value, Y coordinate value).
                                                                                                  # end_point: It is the ending coordinates of rectangle. The coordinates are represented as tuples of two values i.e. (X coordinate value, Y coordinate value).
-                                                                                                 # color: It is the color of border line of rectangle to be drawn. For BGR, we pass a tuple. eg: (255, 0, 0) for blue color.
+                                                                                                 # color: It is the color of border line of rectangle to be drawn. For BGR, we pass a tuple. eg: (0,255, 0) for green color.
                                                                                                  # thickness: It is the thickness of the rectangle border line in px. Thickness of -1 px will fill the rectangle shape by the specified color.
                                                                                                  # Return Value: It returns an image."""
 
